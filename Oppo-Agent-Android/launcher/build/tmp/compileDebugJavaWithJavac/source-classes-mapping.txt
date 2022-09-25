@@ -1,0 +1,2 @@
+com/DefaultCompany/OppoAgent/BuildConfig.java
+ com.DefaultCompany.OppoAgent.BuildConfig

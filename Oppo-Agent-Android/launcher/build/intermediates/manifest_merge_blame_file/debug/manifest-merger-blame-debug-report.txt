@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.OppoAgent"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-76
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-71
+26-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-68
+27    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-80
+27-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:22-77
+28    <uses-permission android:name="android.permission.BLUETOOTH" />
+28-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+28-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+29
+30    <uses-feature
+30-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.microphone"
+31-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-51
+32        android:required="false" />
+32-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen"
+34-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-52
+35        android:required="false" />
+35-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-33
+36    <uses-feature
+36-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-31:36
+37        android:name="android.hardware.touchscreen.multitouch"
+37-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-63
+38        android:required="false" />
+38-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-33
+39    <uses-feature
+39-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:5-34:36
+40        android:name="android.hardware.touchscreen.multitouch.distinct"
+40-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-72
+41        android:required="false" />
+41-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-33
+42
+43    <application
+43-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:4:3-83
+44        android:debuggable="true"
+45        android:extractNativeLibs="true"
+45-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:18-50
+46        android:icon="@mipmap/app_icon"
+46-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:4:49-80
+47        android:label="@string/app_name"
+47-->/Users/Andrew/Desktop/Oppo 2/launcher/src/main/AndroidManifest.xml:4:16-48
+48        android:testOnly="true" >
+49        <activity
+49-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-54:20
+50            android:name="com.unity3d.player.UnityPlayerActivity"
+50-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-66
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-194
+52            android:hardwareAccelerated="false"
+52-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-48
+53            android:launchMode="singleTask"
+53-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-44
+54            android:resizeableActivity="false"
+54-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-47
+55            android:screenOrientation="fullSensor"
+55-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-51
+56            android:theme="@style/UnityThemeSelector" >
+56-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-54
+57            <intent-filter>
+57-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-49:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-69
+58-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-77
+60-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-74
+61            </intent-filter>
+62
+63            <meta-data
+63-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-53:40
+64                android:name="unityplayer.UnityActivity"
+64-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:17-57
+65                android:value="true" />
+65-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:17-37
+66        </activity>
+67
+68        <meta-data
+68-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:33
+69            android:name="unity.splash-mode"
+69-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-45
+70            android:value="0" />
+70-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-30
+71        <meta-data
+71-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:9-61:36
+72            android:name="unity.splash-enable"
+72-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-47
+73            android:value="True" />
+73-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-33
+74        <meta-data
+74-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-64:36
+75            android:name="unity.launch-fullscreen"
+75-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-51
+76            android:value="True" />
+76-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-33
+77        <meta-data
+77-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:9-67:37
+78            android:name="unity.allow-resizable-window"
+78-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-56
+79            android:value="False" />
+79-->[:unityLibrary] /Users/Andrew/Desktop/Oppo 2/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-34
+80    </application>
+81
+82</manifest>
