@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable bg
+id link
+id main_confirmButton
+id main_container
+id user1
+id user2
+layout main_activity
+layout view_overlap
+mipmap image_190
+mipmap image_191
+mipmap image_191_1
+mipmap image_192
+mipmap image_193
+mipmap image_194
+mipmap vector
+string FreeformWindowOrientation_landscape
+string FreeformWindowOrientation_portrait
+string FreeformWindowSize_maximize
+string FreeformWindowSize_phone
+string FreeformWindowSize_tablet
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector.Translucent
